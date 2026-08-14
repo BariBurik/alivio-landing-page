@@ -47,7 +47,7 @@ body {
     color: var(--color-green);
 }
 .header, .how-it-works, .about, .our-clients, .footer {
-    width: 1920px;
+    width: 100%;
 }
 .href {
     text-decoration: none;
@@ -246,18 +246,15 @@ body {
 .about__container {
     margin-top: 50px;
     display: flex;
-    width: 1906px;
     height: 922px;
     margin-left: 14px;
     background-color: var(--color-bg-green);
-}
-.about__text-container {
-    margin-top: 208px;
 }
 .about__video {
     margin-top: 220px;
 }
 .about__text-container {
+    margin-top: 208px;
     width: 780px;
     padding: 100px 0 0 193px;
     margin-right: 25px;
